@@ -97,9 +97,7 @@ module.exports = {
     'react/no-redundant-should-component-update': [logLevel],
     'react/no-danger': [logLevel],
     'react/no-this-in-sfc': [logLevel],
-    'react/no-will-update-set-state': [logLevel],
     'react/no-unused-state': [logLevel],
-    'react/no-will-update-set-state': [logLevel],
     'react/require-default-props': [logLevel],
     'react/require-optimization': [logLevel],
 
