@@ -1,0 +1,10 @@
+.fragmentItem {
+  padding: 15px;
+  color: aliceblue;
+  margin: 0 auto 2px;
+}
+
+.fragmentItem:hover {
+  background: #128e12;
+  box-shadow: 0px 0px 7px black;
+}

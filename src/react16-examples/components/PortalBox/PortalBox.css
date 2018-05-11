@@ -1,0 +1,18 @@
+.portalBox {
+  height: 400px;
+  width: 400px;
+  background: #ff7171;
+  margin: 10% auto;
+  color: #191827;
+  font-size: 20px;
+  text-align: center;
+  line-height: 400px;
+  position: relative;
+  cursor: crosshair;
+}
+
+.emoji {
+  position: absolute;
+  top: 55%;
+  left: 42%;
+}

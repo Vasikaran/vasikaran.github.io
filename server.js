@@ -23,7 +23,7 @@ app.use(
 
 mockApi(app);
 
-app.use('/build', express.static('app'));
+app.use('/src', express.static('src'));
 
 app.use('/home', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));

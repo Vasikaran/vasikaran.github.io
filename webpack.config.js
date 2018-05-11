@@ -1,6 +1,8 @@
 const path = require('path');
 const webpack = require('webpack');
 
+let isProd = process.env.npm_config_prod_mode || false;
+
 let isVendor = module => {
   let { userRequest } = module;
   return (
@@ -23,7 +25,7 @@ module.exports = {
   entry: {
     main: './src/index.js'
   },
-  devtool: 'eval',
+  devtool: 'source-map',
   mode: 'none',
   output: {
     path: path.join(__dirname, 'build'),
@@ -51,13 +53,8 @@ module.exports = {
   },
   plugins: [
     new webpack.DefinePlugin({
-      __CLIENT__: true,
-      __TEST__: false,
-      __SERVER__: false,
-      __DEVELOPMENT__: true,
-      __LOCAL_PRODUCTION__: false,
-      __DEVTOOLS__: true,
-      __DOCS__: false
+      __DEVELOPMENT__: !isProd,
+      __PRODUCTION__: isProd
     })
   ],
   module: {
@@ -87,8 +84,8 @@ module.exports = {
           {
             loader: 'css-loader',
             options: {
-              modules: true,
-              localIdentName: '[name]_[local]'
+              module: true,
+              localIdentName: '[local]'
             }
           }
         ]

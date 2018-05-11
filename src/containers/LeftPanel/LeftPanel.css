@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.leftPanel {
+  width: 10%;
+  height: 100vh;
+  background: #2d3137;
+  overflow-y: auto;
+  display: inline-block;
+}

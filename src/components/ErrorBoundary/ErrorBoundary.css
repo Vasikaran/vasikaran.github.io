@@ -1,0 +1,13 @@
+.errorBox {
+  height: 100%;
+  width: 100%;
+  color: red;
+  background: #d2a9a9;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  left: 5%;
+  top: 46%;
+}

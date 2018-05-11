@@ -1,0 +1,19 @@
+.containerBox {
+  height: 300px;
+  width: 300px;
+  background: #23cbe0;
+  display: inline-block;
+  margin: 200px;
+  text-align: center;
+  position: relative;
+}
+
+.button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.text {
+  position: absolute;
+}

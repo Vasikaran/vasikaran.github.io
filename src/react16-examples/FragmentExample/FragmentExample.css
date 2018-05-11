@@ -1,0 +1,19 @@
+.rootFEExample {
+  width: 500px;
+  background: #2b4d58;
+  margin: 33px 150px 0 0;
+  text-align: center;
+  box-shadow: 0 0 1px 0px black;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.editorFE {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.wrapperFE {
+  margin-top: 100px;
+  margin-left: 150px;
+}

@@ -1,0 +1,7 @@
+.popup {
+  position: absolute;
+  background: #2f2828;
+  color: white;
+  padding: 3px 20px;
+  will-change: transform;
+}
