@@ -1874,7 +1874,7 @@ var history = history_createBrowserHistory__WEBPACK_IMPORTED_MODULE_2___default(
 
 var urls = [{
   name: 'home',
-  pattern: '/home'
+  pattern: '/'
 }, {
   name: 'react16',
   pattern: '/page/react16'

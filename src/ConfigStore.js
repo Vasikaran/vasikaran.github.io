@@ -13,7 +13,7 @@ let history = createHistory();
 let urls = [
   {
     name: 'home',
-    pattern: '/home'
+    pattern: '/'
   },
   {
     name: 'react16',
